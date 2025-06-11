@@ -3,11 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import math
-import numpy as np
 from torch.utils.data import Dataset, DataLoader
-import os
-import json
-from typing import Optional, Tuple, List, Dict, Any
 
 # ===== TOKENIZER =====
 class SimpleBPETokenizer:
